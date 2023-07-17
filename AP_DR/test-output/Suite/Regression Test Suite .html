@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>TestNG:  Regression Test Suite </title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Test Suite </h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 05 20:00:29 PKT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>116 seconds (116495 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.apdr.testcases.AddUser.hover_Over_AddUser_Link()'><b>hover_Over_AddUser_Link</b><br>Test class: com.apdr.testcases.AddUser</td>
+<td></td>
+<td>1</td>
+<td>com.apdr.testcases.AddUser@3d3e5463</td></tr>
+<tr>
+<td title='com.apdr.testcases.AddUser.click_On_Create_New_Account_Button()'><b>click_On_Create_New_Account_Button</b><br>Test class: com.apdr.testcases.AddUser</td>
+<td></td>
+<td>4</td>
+<td>com.apdr.testcases.AddUser@3d3e5463</td></tr>
+<tr>
+<td title='com.apdr.testcases.InitialPasswordUser.Submit_Button()'><b>Submit_Button</b><br>Test class: com.apdr.testcases.InitialPasswordUser</td>
+<td></td>
+<td>8</td>
+<td>com.apdr.testcases.InitialPasswordUser@64a40280</td></tr>
+<tr>
+<td title='com.apdr.testcases.AddUser.select_Users_role()'><b>select_Users_role</b><br>Test class: com.apdr.testcases.AddUser</td>
+<td></td>
+<td>0</td>
+<td>com.apdr.testcases.AddUser@3d3e5463</td></tr>
+<tr>
+<td title='com.apdr.testcases.AddUser.add_User_Informtion()'><b>add_User_Informtion</b><br>Test class: com.apdr.testcases.AddUser<br>Parameters: sohaib21@mailinator.com,Test@123...,software Testing ,ap786,786ap,Auto7090,engineer11,automation01,customer</td>
+<td></td>
+<td>0</td>
+<td>com.apdr.testcases.AddUser@3d3e5463</td></tr>
+<tr>
+<td title='com.apdr.testcases.LogInTestCases.loginToApDr()'><b>loginToApDr</b><br>Test class: com.apdr.testcases.LogInTestCases<br>Parameters: sohaib.naseer@visionetsystems.com,Test@123...,Test engineer,aptest</td>
+<td></td>
+<td>7</td>
+<td>com.apdr.testcases.LogInTestCases@45312be2</td></tr>
+<tr>
+<td title='com.apdr.testcases.AddUser.add_Pass_And_Confirm_Password()'><b>add_Pass_And_Confirm_Password</b><br>Test class: com.apdr.testcases.AddUser<br>Parameters: sohaib21@mailinator.com,Test@123...,software Testing ,ap786,786ap,Auto7090,engineer11,automation01,customer</td>
+<td></td>
+<td>0</td>
+<td>com.apdr.testcases.AddUser@3d3e5463</td></tr>
+<tr>
+<td title='com.apdr.testcases.AddUser.add_Role_For_Users()'><b>add_Role_For_Users</b><br>Test class: com.apdr.testcases.AddUser<br>Parameters: sohaib21@mailinator.com,Test@123...,software Testing ,ap786,786ap,Auto7090,engineer11,automation01,customer</td>
+<td></td>
+<td>0</td>
+<td>com.apdr.testcases.AddUser@3d3e5463</td></tr>
+<tr>
+<td title='com.apdr.testcases.InitialPasswordUser.NewPass()'><b>NewPass</b><br>Test class: com.apdr.testcases.InitialPasswordUser<br>Parameters: sohaib21@mailinator.com,Test@123...,software Testing ,ap786,786ap,Auto7090,engineer11,automation01,customer</td>
+<td></td>
+<td>0</td>
+<td>com.apdr.testcases.InitialPasswordUser@64a40280</td></tr>
+<tr>
+<td title='com.apdr.testcases.AddUser.add_User_MDMID()'><b>add_User_MDMID</b><br>Test class: com.apdr.testcases.AddUser<br>Parameters: sohaib21@mailinator.com,Test@123...,software Testing ,ap786,786ap,Auto7090,engineer11,automation01,customer</td>
+<td></td>
+<td>0</td>
+<td>com.apdr.testcases.AddUser@3d3e5463</td></tr>
+<tr>
+<td title='com.apdr.testcases.AddUser.add_Org_Name_And_Org_Id()'><b>add_Org_Name_And_Org_Id</b><br>Test class: com.apdr.testcases.AddUser<br>Parameters: sohaib21@mailinator.com,Test@123...,software Testing ,ap786,786ap,Auto7090,engineer11,automation01,customer</td>
+<td></td>
+<td>0</td>
+<td>com.apdr.testcases.AddUser@3d3e5463</td></tr>
+<tr>
+<td title='com.apdr.testcases.InitialPasswordUser.Enter_Email_Address()'><b>Enter_Email_Address</b><br>Test class: com.apdr.testcases.InitialPasswordUser<br>Parameters: sohaib21@mailinator.com,Test@123...,software Testing ,ap786,786ap,Auto7090,engineer11,automation01,customer</td>
+<td></td>
+<td>54</td>
+<td>com.apdr.testcases.InitialPasswordUser@64a40280</td></tr>
+<tr>
+<td title='com.apdr.testcases.InitialPasswordUser.OpenNewMailbox()'><b>OpenNewMailbox</b><br>Test class: com.apdr.testcases.InitialPasswordUser</td>
+<td></td>
+<td>12</td>
+<td>com.apdr.testcases.InitialPasswordUser@64a40280</td></tr>
+<tr>
+<td title='com.apdr.testcases.InitialPasswordUser.Confirm_Pass()'><b>Confirm_Pass</b><br>Test class: com.apdr.testcases.InitialPasswordUser<br>Parameters: sohaib21@mailinator.com,Test@123...,software Testing ,ap786,786ap,Auto7090,engineer11,automation01,customer</td>
+<td></td>
+<td>2</td>
+<td>com.apdr.testcases.InitialPasswordUser@64a40280</td></tr>
+<tr>
+<td title='com.apdr.testcases.InitialPasswordUser.OpenMailbox()'><b>OpenMailbox</b><br>Test class: com.apdr.testcases.InitialPasswordUser</td>
+<td></td>
+<td>11</td>
+<td>com.apdr.testcases.InitialPasswordUser@64a40280</td></tr>
+<tr>
+<td title='com.apdr.testcases.InitialPasswordUser.ResetSUbmit()'><b>ResetSUbmit</b><br>Test class: com.apdr.testcases.InitialPasswordUser</td>
+<td></td>
+<td>6</td>
+<td>com.apdr.testcases.InitialPasswordUser@64a40280</td></tr>
+</table><p>
+</body>
+</html>

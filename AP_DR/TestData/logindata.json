@@ -1,0 +1,43 @@
+{
+	"Admin": [
+		{
+			"email": "sohaib.naseer@visionetsystems.com",
+			"password": "Test@123...",
+			"role": "Test engineer",
+			"machineReableName": "aptest"
+		}
+	],
+	"Customer_support": [
+		{
+			"email": "APCustomerSupport@mailinator.com",
+			"password": "Test@123..."	
+		}
+	],
+	
+	"Author": [
+		{
+			"email": "APAuthor@mailinator.com",
+			"password": "Test@123..."	
+		}
+	],
+	"SuperAdmin": [
+		{
+			"email": "ripcord@ap.org",
+			"password": "admin"	
+		}
+	],
+	
+	"add-user": [
+		{
+			"email": "APCustomer@mailinator.com",
+			"password": "Test@123...",
+			"org": "software Testing ",
+			"orgId": "ap786",
+			"mdmid": "786ap",
+			"userId": "Auto7090",
+			"lastName": "engineer11",
+			"firstName": "automation01",
+			"systemRole": "customer"
+		}
+	]
+}
